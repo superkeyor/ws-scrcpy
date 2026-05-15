@@ -1,5 +1,5 @@
-docker run --name ws-scrcpy --init --rm -it -p 8055:8000 \
-  superkeyor/ws-scrcpy \
+docker run --name ws-scrcpy --init --rm -it -p 8055:8000 \\
+  superkeyor/ws-scrcpy \\
   sh -c "adb connect 100.101.102.37:5555 && npm start"
 
 
