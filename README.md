@@ -1,3 +1,8 @@
+docker run --name ws-scrcpy --init --rm -it -p 8055:8000 \
+  superkeyor/ws-scrcpy \
+  sh -c "adb connect 100.101.102.37:5555 && npm start"
+
+
 # ws-scrcpy (Docker Fork)
 
 > 🍴 **Fork of [NetrisTV/ws-scrcpy][upstream]** — Updated for 2025 with Docker-first deployment
